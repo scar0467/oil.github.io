@@ -2,73 +2,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ассортимент моторных масел</title>
+    <title>Магазин Моторных Масел</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-        table {
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+            height: auto;
+            border-bottom: 1px solid #ddd;
         }
-        th, td {
-            padding: 10px;
-            border-bottom: 1px solid #ccc;
-            text-align: left;
+        .product-info {
+            padding: 15px;
         }
-        th {
-            background-color: #333;
-            color: #fff;
+        .product-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .product-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
         }
     </style>
 </head>
 <body>
 
-<h1>Ассортимент моторных масел</h1>
-<p>Добро пожаловать! Здесь вы можете ознакомиться с ассортиментом моторных масел, доступных на наших АЗС.</p>
+<header>
+    <h1>Магазин Моторных Масел</h1>
+</header>
 
-<table id="oilTable">
-    <thead>
-        <tr>
-            <th>Название</th>
-            <th>Тип</th>
-            <th>Вязкость</th>
-            <th>Цена</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Данные будут загружены здесь с помощью JavaScript -->
-    </tbody>
-</table>
+<main class="container">
+    <div class="product-card">
+        <img src="https://w7.pngwing.com/pngs/890/55/png-transparent-motor-oil-exxonmobil-lubricant-lubricant-motorcycle-oil-engine-thumbnail.png" alt="Масло 1" class="product-image">
+        <div class="product-info">
+            <h2 class="product-title">Моторное масло 5W-30</h2>
+            <p class="product-description">Высококачественное синтетическое масло для легковых автомобилей с превосходными защитными свойствами.</p>
+            <p class="product-price">1200 ₽</p>
+        </div>
+    </div>
 
-<script>
-    const oils = [
-        { name: "Масло X", type: "Синтетическое", viscosity: "5W-30", price: "1000 руб" },
-        { name: "Масло Y", type: "Минеральное", viscosity: "10W-40", price: "800 руб" },
-        { name: "Масло Z", type: "Синтетическое", viscosity: "0W-20", price: "1200 руб" }
-        // Добавьте больше объектов с маслами, если необходимо
-    ];
+    <div class="product-card">
+        <img src="https://w7.pngwing.com/pngs/297/514/png-transparent-motorcycle-exxonmobil-motor-oil-lubricant-motorcycle-motorcycle-oil-engine-thumbnail.png" alt="Масло 2" class="product-image">
+        <div class="product-info">
+            <h2 class="product-title">Моторное масло 10W-40</h2>
+            <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
+            <p class="product-price">900 ₽</p>
+        </div>
+    </div>
 
-    function loadData() {
-        const tableBody = document.querySelector("#oilTable tbody");
-        oils.forEach(oil => {
-            const row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${oil.name}</td>
-                <td>${oil.type}</td>
-                <td>${oil.viscosity}</td>
-                <td>${oil.price}</td>
-            `;
-            tableBody.appendChild(row);
-        });
-    }
+    <div class="product-card">
+        <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
+        <div class="product-info">
+            <h2 class="product-title">Моторное масло 10W-40</h2>
+            <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
+            <p class="product-price">900 ₽</p>
+        </div>
+    </div>
 
-    // Загрузка данных при загрузке страницы
-    window.onload = loadData;
-</script>
+    <div class="product-card">
+        <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
+        <div class="product-info">
+            <h2 class="product-title">Моторное масло 10W-40</h2>
+            <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
+            <p class="product-price">900 ₽</p>
+        </div>
+    </div>
+
+    <!-- Добавьте больше карточек товаров по аналогии -->
+
+</main>
 
 </body>
 </html>
