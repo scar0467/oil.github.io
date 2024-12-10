@@ -10,12 +10,12 @@
             padding: 0;
             background-color: #f4f4f4;
         }
-/*         header {
+        header {
             background-color: #35424a;
             color: #ffffff;
             padding: 10px 0;
             text-align: center;
-        } */
+        }
         .container {
             display: flex;
             flex-direction: column;
@@ -72,7 +72,9 @@
     </style>
 </head>
 <body>
-
+<header>
+    <h1>Магазин Моторных Масел</h1>
+</header>
 
 <main class="container">
     <div class="product-card">
