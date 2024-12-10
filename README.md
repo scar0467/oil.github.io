@@ -73,9 +73,9 @@
 </head>
 <body>
 
-/*<header>
+/ ! --> <header>
     <h1>Магазин Моторных Масел</h1>
-</header>  */
+</header>  -->/
 
 <main class="container">
     <div class="product-card">
