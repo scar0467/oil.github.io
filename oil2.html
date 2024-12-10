@@ -137,7 +137,7 @@
         </div>
     </div>
     <!-- Модальное окно -->
-    <div id="modal1" class="modal">
+    <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal2')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
@@ -153,7 +153,7 @@
         </div>
     </div>
     <!-- Модальное окно -->
-    <div id="modal1" class="modal">
+    <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal3')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
@@ -169,7 +169,7 @@
         </div>
     </div>
     <!-- Модальное окно -->
-    <div id="modal1" class="modal">
+    <div id="modal4" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal4')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
@@ -185,7 +185,7 @@
         </div>
     </div>
     <!-- Модальное окно -->
-    <div id="modal1" class="modal">
+    <div id="modal5" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal5')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
@@ -201,7 +201,7 @@
         </div>
     </div>
     <!-- Модальное окно -->
-    <div id="modal1" class="modal">
+    <div id="modal6" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal6')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
