@@ -140,9 +140,10 @@
     <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal2')">&times;</span>
-            <h2>Моторное масло 5W-30</h2>
+            <h2>Моторное масло 10W-40</h2>
             <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
-
+        </div>
+    </div>
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
         <div class="product-info">
@@ -156,9 +157,10 @@
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('modal3')">&times;</span>
-            <h2>Моторное масло 5W-30</h2>
+            <h2>Моторное масло 10W-40</h2>
             <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
-
+        </div>
+    </div>
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
         <div class="product-info">
@@ -174,7 +176,8 @@
             <span class="modal-close" onclick="closeModal('modal4')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
             <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
-
+        </div>
+    </div>
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
         <div class="product-info">
@@ -190,7 +193,8 @@
             <span class="modal-close" onclick="closeModal('modal5')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
             <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
-
+        </div>
+    </div>
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
         <div class="product-info">
@@ -206,6 +210,8 @@
             <span class="modal-close" onclick="closeModal('modal6')">&times;</span>
             <h2>Моторное масло 5W-30</h2>
             <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
+        </div>
+    </div>
     <!-- Добавьте больше карточек товаров по аналогии -->
 
 </main>
