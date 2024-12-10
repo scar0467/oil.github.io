@@ -145,7 +145,7 @@
         </div>
     </div>
     <div class="product-card">
-        <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
+        <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 3" class="product-image">
         <div class="product-info">
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
@@ -162,7 +162,7 @@
         </div>
     </div>
     <div class="product-card">
-        <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
+        <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 4" class="product-image">
         <div class="product-info">
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
@@ -179,7 +179,7 @@
         </div>
     </div>
     <div class="product-card">
-        <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
+        <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 5" class="product-image">
         <div class="product-info">
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
@@ -196,7 +196,7 @@
         </div>
     </div>
     <div class="product-card">
-        <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
+        <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 6" class="product-image">
         <div class="product-info">
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
