@@ -19,7 +19,7 @@
         .container {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             padding: 10px;
         }
         .product-card {
