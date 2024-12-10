@@ -19,22 +19,20 @@
         }
         .container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
         }
         .product-card {
             background-color: #ffffff;
             border: 1px solid #ddd;
             border-radius: 5px;
-            margin: 10px;
-            max-width: 300px;
+            margin: 10px 0;
+            width: 90%; /* Ширина карточки для мобильных устройств */
+            max-width: 400px; /* Ограничение ширины для больших экранов */
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s;
-        }
-        .product-card:hover {
-            transform: scale(1.05);
         }
         .product-image {
             width: 100%;
@@ -45,30 +43,31 @@
             padding: 15px;
         }
         .product-title {
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 10px;
         }
         .product-description {
             font-size: 14px;
             color: #666;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         .product-price {
             font-size: 16px;
             font-weight: bold;
             color: #333;
+            margin-bottom: 10px;
         }
 
-         /* Медиа-запросы для адаптивности */
-         @media (min-width: 320px) {
-            .product-card {
-                width: calc(100% - 20px); /* Два элемента на строку */
+        /* Медиа-запросы для небольших экранов */
+        @media (max-width: 480px) {
+            .product-title {
+                font-size: 14px;
             }
-        }
-
-        @media (min-width: 768px) {
-            .product-card {
-                width: calc(50% - 20px); /* Три элемента на строку */
+            .product-description {
+                font-size: 12px;
+            }
+            .product-price {
+                font-size: 14px;
             }
         }
     </style>
