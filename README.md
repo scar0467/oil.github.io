@@ -17,6 +17,7 @@
             text-align: center;
         }
         .container {
+            max-width: 1170px;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
