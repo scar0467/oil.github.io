@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -56,6 +57,19 @@
             font-size: 16px;
             font-weight: bold;
             color: #333;
+        }
+
+         /* Медиа-запросы для адаптивности */
+         @media (min-width: 600px) {
+            .product-card {
+                width: calc(50% - 20px); /* Два элемента на строку */
+            }
+        }
+
+        @media (min-width: 900px) {
+            .product-card {
+                width: calc(33.333% - 20px); /* Три элемента на строку */
+            }
         }
     </style>
 </head>
