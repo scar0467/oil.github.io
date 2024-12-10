@@ -62,13 +62,13 @@
          /* Медиа-запросы для адаптивности */
          @media (min-width: 320px) {
             .product-card {
-                width: calc(50% - 20px); /* Два элемента на строку */
+                width: calc(100% - 20px); /* Два элемента на строку */
             }
         }
 
         @media (min-width: 768px) {
             .product-card {
-                width: calc(33.333% - 20px); /* Три элемента на строку */
+                width: calc(50% - 20px); /* Три элемента на строку */
             }
         }
     </style>
