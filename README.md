@@ -87,6 +87,14 @@
             <a href="#" class="product-link" onclick="openModal('modal1')">Подробнее</a>
         </div>
     </div>
+    <!-- Модальное окно -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Моторное масло 5W-30</h2>
+            <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
+        </div>
+    </div>
 
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/297/514/png-transparent-motorcycle-exxonmobil-motor-oil-lubricant-motorcycle-motorcycle-oil-engine-thumbnail.png" alt="Масло 2" class="product-image">
