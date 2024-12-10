@@ -133,8 +133,15 @@
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
             <p class="product-price">900 ₽</p>
+            <a href="#" class="product-link" onclick="openModal('modal2')">Подробнее</a>
         </div>
     </div>
+    <!-- Модальное окно -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Моторное масло 5W-30</h2>
+            <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
 
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
@@ -142,8 +149,15 @@
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
             <p class="product-price">900 ₽</p>
+            <a href="#" class="product-link" onclick="openModal('modal3')">Подробнее</a>
         </div>
     </div>
+    <!-- Модальное окно -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Моторное масло 5W-30</h2>
+            <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
 
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
@@ -151,8 +165,15 @@
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
             <p class="product-price">900 ₽</p>
+            <a href="#" class="product-link" onclick="openModal('modal4')">Подробнее</a>
         </div>
     </div>
+    <!-- Модальное окно -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Моторное масло 5W-30</h2>
+            <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
 
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/355/501/png-transparent-car-castrol-motor-oil-european-automobile-manufacturers-association-synthetic-oil-car-diesel-fuel-car-transport-thumbnail.png" alt="Масло 2" class="product-image">
@@ -160,8 +181,15 @@
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
             <p class="product-price">900 ₽</p>
+            <a href="#" class="product-link" onclick="openModal('modal5')">Подробнее</a>
         </div>
     </div>
+    <!-- Модальное окно -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal5')">&times;</span>
+            <h2>Моторное масло 5W-30</h2>
+            <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
 
     <div class="product-card">
         <img src="https://w7.pngwing.com/pngs/631/579/png-transparent-mobil-1-synthetic-oil-motor-oil-lubricant-engine-diesel-fuel-oil-transport-thumbnail.png" alt="Масло 2" class="product-image">
@@ -169,9 +197,15 @@
             <h2 class="product-title">Моторное масло 10W-40</h2>
             <p class="product-description">Полусинтетическое масло для двигателей с увеличенным сроком службы и отличной стабильностью.</p>
             <p class="product-price">900 ₽</p>
+            <a href="#" class="product-link" onclick="openModal('modal6')">Подробнее</a>
         </div>
     </div>
-
+    <!-- Модальное окно -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal6')">&times;</span>
+            <h2>Моторное масло 5W-30</h2>
+            <p>Подробная информация о масле. Преимущества, характеристики и области применения.</p>
     <!-- Добавьте больше карточек товаров по аналогии -->
 
 </main>
