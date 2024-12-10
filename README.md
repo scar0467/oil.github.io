@@ -84,6 +84,7 @@
             <h2 class="product-title">Моторное масло 5W-30</h2>
             <p class="product-description">Высококачественное синтетическое масло для легковых автомобилей с превосходными защитными свойствами.</p>
             <p class="product-price">1200 ₽</p>
+            <a href="#" class="product-link" onclick="openModal('modal1')">Подробнее</a>
         </div>
     </div>
 
@@ -135,6 +136,16 @@
     <!-- Добавьте больше карточек товаров по аналогии -->
 
 </main>
+
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+    }
+</script>
 
 </body>
 </html>
